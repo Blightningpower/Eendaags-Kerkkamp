@@ -1,1 +1,1 @@
-# Eendaags-Kerkkamp
+# Eendaagse-Kerkkamp

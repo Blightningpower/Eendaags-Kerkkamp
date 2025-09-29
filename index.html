@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Kerkactiviteit-Bassischool_Aanmeldformulier_06-05-2024</title>
+  <title>Eendaagse Kerkkamp – Middelbare school – 11/10/2025</title>
 
   <!--links for the Favicons-->
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
@@ -24,48 +24,69 @@
 
 <body>
   <header>
-    <h1>Kerkactiviteit-Bassischool_Aanmeldformulier_06-05-2024</h1>
+    <h1>Eendaagse Kerkkamp – Middelbare school – 11/10/2025</h1>
   </header>
+  <br><br><br><br>
   <main>
     <ul>
       <li>
-        <h2>Op 6 mei gaan we met de hele kerk naar Duinrell voor een superleuk dagje vol avontuur en plezier! We gaan
-          samen alle attracties ontdekken en nieuwe herinneringen maken, dus zorg dat je erbij bent voor een dag vol
-          lachen en gezelligheid! 🎉</h2>
+        <h2><strong>Eendaagse Kerkkamp</strong> – zaterdag <strong>11/10/2025</strong> – <strong>in de kerk</strong></h2>
       </li>
       <li>
-        <h2>Vul in dit inschrijvingsformulier je gegevens in en klik op de knop 'Verzend gegevens' om je
-          gegevens te verzenden.</h2>
+        <h2>Thema: <em>What is God saying to me?</em></h2>
       </li>
       <li>
-        <h2>Klik daarna op de knop 'Betalen' om je inschrijving te voltooien. De kosten voor de activiteit zijn €25,-
-          p.p.
-        </h2>
+        <h3><strong>Programma</strong></h3>
       </li>
       <li>
-        <h2>Vul in de beschrijving van de betaling nogmaals de naam van de deelnemer in die zich inschrijft en
-          zijn/haar groep.</h2>
+        <h2><strong>08:30–11:00</strong> heilige liturgie</h2>
       </li>
       <li>
-        <h2><span>GEEN betaling is GEEN aanmelding!</span></h2>
+        <h2><strong>11:00–12:00</strong> ontbijten en indeling groepen</h2>
       </li>
       <li>
-        <h2>Kijk voor de zekerheid op je bankrekening of het bedrag is betaald en stuur een appje naar Gina Armanyous
-          via <a href="#telephoneNumber" class="telephoneNumberAnchor">de onderstaande telefoonnummer</a> zodra het is
-          gelukt.</h2>
+        <h2><strong>12:00–12:30</strong> la7n en she3aar of tarnima</h2>
       </li>
       <li>
-        <h2>Alle velden met een <span class="requiredField">*</span> in dit formulier zijn verplicht in te vullen.</h2>
+        <h2><strong>12:30–14:30</strong> activiteiten: rijden naar de bowlingcentr<strong>u</strong>m Eindhoven</h2>
       </li>
       <li>
-        <h2><span>(LET OP! Dit formulier is per deelnemer. Als je meer deelnemers wilt aanmelden,
-            moet je meerdere keren het formulier invullen en betalen!)</span></h2>
+        <h2><strong>15:30–16:30</strong> les</h2>
       </li>
       <li>
-        <h2>Problemen met aanmelden? Neem contact op met Gina Armanyous via haar telefoonnummer: <a
-            href="tel:+31640746017" id="telephoneNumber">06 407 46 017</a></h2>
+        <h2><strong>16:30–17:30</strong> workshops bijbelstudie: de wil van God bij Mozes, Samuel en Abram</h2>
+      </li>
+      <li>
+        <h2><strong>17:30–18:30</strong> spelletjes: wedstrijd op het voetbalveld, de tuin van de kerk, en bijbelspelletjes</h2>
+      </li>
+      <li>
+        <h2><strong>18:30–19:30</strong> avondeten</h2>
+      </li>
+      <li>
+        <h2><strong>19:30–20:30</strong> tarnima en tasbe7a</h2>
+      </li>
+      <li>
+        <h2><strong>20:30–21:30</strong> bonte avond</h2>
+      </li>
+      <li>
+        <h2><strong>21:30</strong> afsluiting van de dag en naar huis</h2>
+      </li>
+      <li>
+        <h2>Kosten: <strong>€10,-</strong> per persoon. <span>GEEN betaling = GEEN aanmelding!</span></h2>
+      </li>
+      <li>
+        <h2>Aanmelddeadline: <strong>3/10/25</strong></h2>
+      </li>
+      <li>
+        <h2>Let op: dit formulier is per deelnemer. Als je meer deelnemers wilt aanmelden, vul je het formulier meerdere
+          keren in en betaal je per deelnemer.</h2>
+      </li>
+      <li>
+        <h2>Problemen met aanmelden? Neem contact op met <strong>Gina Hanna</strong> via telefoon: <a
+            href="tel:+31685725172" id="telephoneNumber">+31 6 10061549</a></h2>
       </li>
     </ul>
+
     <form id="form" action="php/contactform.php" method="POST" target="_self">
 
       <!-- Deelnemergegevens -->
@@ -92,53 +113,21 @@
 
       <div class="row">
         <div class="col-25">
-          <label for="phoneNrChild">Telefoonnummer Deelnemer:</label>
+          <label for="phoneNrChild"><span class="requiredField">*</span>Telefoonnummer Deelnemer:</label>
         </div>
         <div class="col-75">
           <input type="text" id="phoneNrChild" name="telefoonnummerDeelnemer"
-            placeholder="Vul hier het telefoonummer in van de deelnemer">
+            placeholder="Vul hier het telefoonummer in van de deelnemer" required>
         </div>
       </div>
 
       <div class="row">
         <div class="col-25">
-          <label for="eMailChild">E-mail Deelnemer:</label>
+          <label for="eMailChild"><span class="requiredField">*</span>E-mail Deelnemer:</label>
         </div>
         <div class="col-75">
-          <input type="email" id="eMailChild" name="emailDeelnemer"
+          <input type="email" id="eMailChild" name="emailDeelnemer" required
             placeholder="Vul hier het E-mailadres in van de deelnemer">
-        </div>
-      </div>
-
-      <!-- Oudergegevens -->
-
-      <div class="row">
-        <div class="col-25">
-          <label for="nParent"><span class="requiredField">*</span>Naam Ouder:</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="nParent" name="naamOuder"
-            placeholder="Vul hier de voor- en achternaam in van de ouder van de deelnemer" required>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-25">
-          <label for="phoneNrParent"><span class="requiredField">*</span>Telefoonnummer Ouder:</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="phoneNrParent" name="telefoonnummerOuder"
-            placeholder="Vul hier het telefoonummer in van de ouder van de deelnemer" required>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-25">
-          <label for="eMailParent"><span class="requiredField">*</span>E-mail Ouder:</label>
-        </div>
-        <div class="col-75">
-          <input type="email" id="eMailParent" name="emailOuder"
-            placeholder="Vul hier het E-mailadres in van de ouder van de deelnemer" required>
         </div>
       </div>
 
@@ -151,6 +140,37 @@
         <div class="col-75">
           <input type="text" id="iBAN" name="iBAN"
             placeholder="Vul hier het bankrekeningnummer in waarmee wordt betaald" required>
+        </div>
+      </div>
+
+      <!-- Oudergegevens -->
+
+      <div class="row">
+        <div class="col-25">
+          <label for="nParent">Naam ouder/voogd (optioneel):</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="nParent" name="naamOuder"
+            placeholder="(Optioneel) Vul hier de voor- en achternaam in van de ouder/voogd">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="phoneNrParent">Telefoonnummer ouder/voogd (optioneel):</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="phoneNrParent" name="telefoonnummerOuder"
+            placeholder="(Optioneel) Telefoonnummer ouder/voogd">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="eMailParent">E-mail ouder/voogd (optioneel):</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="eMailParent" name="emailOuder" placeholder="(Optioneel) E-mailadres ouder/voogd">
         </div>
       </div>
 
