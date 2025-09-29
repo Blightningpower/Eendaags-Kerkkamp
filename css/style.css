@@ -1,0 +1,257 @@
+ /* Code applied to all standard HTML element tags */
+ * {
+   text-decoration: none;
+   font-family: 'Tangerine', cursive;
+   /* Changed font to a Christmas-themed font */
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+ @media only screen and (max-width: 767px) {
+   * {
+     font-family: sans-serif;
+     font-style: oblique;
+   }
+ }
+
+ html,
+ body {
+   background-color: #d8ffd8;
+   /* Changed background color to a light green */
+   text-align: center;
+   font-family: 'Tangerine', cursive;
+   float: unset;
+   margin: 0;
+   padding: 0;
+ }
+
+ header {
+   background-color: #4b0082;
+   /* Changed header background color to indigo */
+   color: #ffd700;
+   /* Changed header text color to gold */
+   top: 0;
+   position: fixed;
+   min-width: -webkit-fill-available;
+   max-height: 15vh;
+   width: 100%;
+   padding: 15px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.2);
+ }
+
+ h1 {
+   font-size: 2.7vw;
+ }
+
+ main {
+   margin: 5vh auto 0 auto;
+   padding: 0 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: space-between;
+   flex-wrap: wrap;
+ }
+
+ h2 {
+   font-size: large;
+   text-align: left;
+   color: #8b0000;
+   /* Changed h2 text color to dark red */
+   margin: revert;
+ }
+
+ span {
+   font-size: large;
+   color: #ff4500;
+   /* Changed span text color to orange-red */
+ }
+
+ ul {
+   padding: 5rem 3rem 3rem;
+   margin: 0;
+ }
+
+ @media only screen and (max-width: 500px) {
+
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+ }
+
+ /* Code applied to all HTML elements with an ID */
+
+ ::placeholder {
+   text-align: center;
+ }
+
+ .blueText {
+   color: #0000ff;
+   /* Changed blueText color to blue */
+ }
+
+ .blackText {
+   color: #000000;
+   /* Changed blackText color to black */
+ }
+
+ #payment-button {
+   padding: 10px 20px;
+   background-color: #080;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   border: 2px solid black;
+   margin: auto;
+ }
+
+ #payment-button a {
+   color: white;
+ }
+
+ #payment-button:hover {
+   background-color: #008;
+   color: white;
+ }
+
+ #payment-button:hover {
+   background-color: #800;
+   color: white;
+ }
+
+ #telephoneNumber,
+ .telephoneNumberAnchor {
+   color: #ff0000;
+   font-style: italic;
+   text-decoration: underline;
+ }
+
+ #telephoneNumber:hover,
+ .telephoneNumberAnchor:hover {
+   color: #080;
+ }
+
+ span {
+   font-size: large;
+   color: #ff6363;
+   /* Red text */
+ }
+
+ form {
+   margin: 1rem auto 2rem;
+ }
+
+ label {
+   font-size: large;
+   color: #ffcc00;
+   /* Yellow text */
+ }
+
+ #transportation,
+ input {
+   padding: 1%;
+   border-radius: 3px;
+   border: none;
+   color: #8b0000;
+   background-color: #c0ffee;
+ }
+
+ input[type] {
+   text-align: center;
+   border: 2px solid;
+ }
+
+ .col-25 {
+   margin-bottom: 5px;
+ }
+
+ .row {
+   margin-top: 3%;
+ }
+
+ #group {
+   min-width: 19rem;
+ }
+
+ #nChild {
+   min-width: 26rem;
+ }
+
+ #nParent {
+   min-width: 31rem;
+ }
+
+ #phoneNrChild {
+   min-width: 23rem;
+ }
+
+ #phoneNrParent {
+   min-width: 29rem;
+ }
+
+ #eMailChild {
+   min-width: 21rem;
+ }
+
+ #eMailParent {
+   min-width: 27rem;
+ }
+
+ ::placeholder {
+   text-align: center;
+   color: #8b0000;
+   font-size: medium;
+   margin: auto;
+ }
+
+ #submitButton {
+   padding: 10px 20px;
+   background-color: #e44d26;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: inherit;
+   margin-top: 10%;
+ }
+
+ #submitButton:hover {
+   background-color: #bf4021;
+   /* Darker red on hover */
+   color: #fff;
+ }
+
+ #submitButton:active {
+   background-color: #992b1a;
+   /* Even darker red on click */
+   color: #fff;
+ }
+
+ #transportation {
+   max-width: fit-content;
+   padding: 1%;
+   margin: auto;
+ }
+
+ #iBAN {
+   min-width: 27rem;
+   background-color: #c0ffee;
+   /* Light green background */
+   border-radius: 3px;
+   padding: 1%;
+ }
+
+ #iBAN::placeholder {
+   font-size: 15px;
+ }
+
+ .paymentText {
+   margin-top: 3rem;
+   color: #8b0000;
+ }
+
+ .requiredField {
+   color: red;
+ }
