@@ -159,7 +159,7 @@ try {
     $mailer->AltBody = $plain;
 
     /** === 4) Eerst doorsturen naar betalen, daarna mailen === */
-    $paymentUrl = envv('PAYMENT_URL_29');
+    $paymentUrl = envv('PAYMENT_URL');
     if (!$paymentUrl) {
         $paymentUrl = '../html/payment.html';
     }
